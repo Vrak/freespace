@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- This is the Layout file! -->
+<html>
+  <head>
+    <title>Freespace</title>
+    <%= csrf_meta_tags %>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> <!-- icons -->
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  <br/>
+
+  <%= render "layouts/header" %>
+
+  <%= render "layouts/alerts" %>
+
+  <div id="main-content" class="row full-min-height">
+    <%= yield %>
+  </div>
+
+  <footer class="row">
+      <div class="large-12 columns">
+      <hr> <p><i class="fas fa-copyright"></i> Freespace Collective 2018<br>
+      Built by Erav with <i class="fas fa-heartbeat"></i></p>
+    </div>
+  </footer>
+
+  <%= javascript_include_tag "application" %>
+  </body>
+</html>

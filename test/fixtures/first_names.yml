@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: MyString
+  nickname: MyString
+  email: MyString
+  emergency_contact: MyString
+  emerg_phone: MyString
+  med_history: MyString
+  dependant: MyString
+  vehicle_licence: MyString
+  agrees_waiver: MyString
+
+two:
+  last_name: MyString
+  nickname: MyString
+  email: MyString
+  emergency_contact: MyString
+  emerg_phone: MyString
+  med_history: MyString
+  dependant: MyString
+  vehicle_licence: MyString
+  agrees_waiver: MyString
