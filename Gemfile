@@ -55,3 +55,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # erav's aditions below this line (above og generated file)
 gem 'foundation-rails'
+gem 'devise'

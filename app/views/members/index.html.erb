@@ -1,9 +1,10 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Members</h1>
+<h1 class="column">Members</h1>
 
-<table>
-  <thead>
+
+<div class="column"><table>
+  <thead class="table_head">
     <tr>
       <th>First name</th>
       <th>Last name</th>
@@ -14,10 +15,11 @@
       <th>Med history</th>
       <th>Dependant</th>
       <th>Vehicle licence</th>
-      <th>Agrees waiver</th>
+      <th>Agrees To waiver</th>
       <th colspan="3"></th>
     </tr>
   </thead>
+</div>
 
   <tbody>
     <% @members.each do |member| %>
@@ -32,9 +34,11 @@
         <td><%= member.dependant %></td>
         <td><%= member.vehicle_licence %></td>
         <td><%= member.agrees_waiver %></td>
-        <td><%= link_to 'Show', member %></td>
-        <td><%= link_to 'Edit', edit_member_path(member) %></td>
-        <td><%= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <div class="small button-group">
+        <td><%= link_to 'Show', member, class:'hollow button tiny' %></td>
+        <td><%= link_to 'Edit', edit_member_path(member), class:'hollow button tiny warning' %></td>
+        <td><%= link_to 'Destroy', member, method: :delete, data: { confirm: 'Are you sure?' }, class:'hollow button tiny alert' ;%></td>
+        </div
       </tr>
     <% end %>
   </tbody>
@@ -42,4 +46,6 @@
 
 <br>
 
- <i class="fi-torsos-all-female"> <%= link_to 'New Member', new_member_path %> </i>
+  <i class="fi-torsos-all-female fa-2x"></i>
+  <%= link_to 'New Member', new_member_path, class:'button success' %>
+  </i>
