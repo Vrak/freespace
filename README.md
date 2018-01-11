@@ -19,13 +19,8 @@ Mysql
 Devise
 Redis
 Braintree//Square
-
+rqrcode: https://github.com/whomwah/rqrcode
 Rubygems
-Ruby, 
-Rails, 
-Devise, 
-Redis
-foundation 5
 
 
 To do:
