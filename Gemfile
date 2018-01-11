@@ -54,5 +54,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 # erav's aditions below this line (above og generated file)
+
 gem 'foundation-rails'
+# User Authentication and login sessions with Devise
 gem 'devise'
+
+gem 'redis', '~> 3.0.1'
+gem 'hiredis', '~> 0.4.5'

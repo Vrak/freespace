@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'carts/show'
+
+  get 'carts/purchased'
+
   devise_for :users
   resources :members
   resources :first_names

@@ -1,4 +1,4 @@
 require 'csv'
 CSV.foreach(Rails.root.join("db/seeds_data/members.csv"), headers: true) do |row|
-  Member.find_or_create_by(first_name: row[0], last_name: row[1], nickname: row[2], email: row[3], emergency_contact: row[4], emerg_phone: row[5], med_history: row[6], dependant: row[7], vehicle_licence: row[8], agrees_waiver: row[9])
+  Member.find_or_create_by(first_name: row[0], last_name: row[1], nickname: row[2], email: row[3], emergency_contact: row[4], emerg_phone: row[5], med_history: row[6], dependant: row[7], vehicle_licence: row[8], agrees_waiver:boolean row[9])
 end

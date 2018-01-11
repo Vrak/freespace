@@ -418,13 +418,13 @@ $header-font-weight: $font-weight-normal;
 // 05. Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-button-classes: $include-html-classes;
+$include-html-button-classes: $include-html-classes;
 
 // We use these to build padding for buttons.
-// $button-tny: rem-calc(10);
-// $button-sml: rem-calc(14);
-// $button-med: rem-calc(16);
-// $button-lrg: rem-calc(18);
+$button-tny: rem-calc(10);
+$button-sml: rem-calc(14);
+$button-med: rem-calc(16);
+$button-lrg: rem-calc(18);
 
 // We use this to control the display property.
 // $button-display: inline-block;
@@ -468,11 +468,11 @@ $button-round: $global-rounded;
 // 06. Button Groups
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-button-classes: $include-html-classes;
+$include-html-button-classes: $include-html-classes;
 
 // Sets the margin for the right side by default, and the left margin if right-to-left direction is used
-// $button-bar-margin-opposite: rem-calc(10);
-// $button-group-border-width: 1px;
+$button-bar-margin-opposite: rem-calc(10);
+$button-group-border-width: 1px;
 
 // 07. Clearing
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1203,13 +1203,13 @@ $sub-nav-list-padding-top: rem-calc(4);
 
 // We use this to control the definition
 // $sub-nav-font-family: $body-font-family;
-// $sub-nav-font-size: rem-calc(14);
-// $sub-nav-font-color: $aluminum;
-// $sub-nav-font-weight: $font-weight-normal;
-// $sub-nav-text-decoration: none;
-// $sub-nav-padding: rem-calc(3 16);
-// $sub-nav-border-radius: 3px;
-// $sub-nav-font-color-hover: scale-color($sub-nav-font-color, $lightness: -25%);
+$sub-nav-font-size: rem-calc(14);
+$sub-nav-font-color: $aluminum;
+$sub-nav-font-weight: $font-weight-normal;
+$sub-nav-text-decoration: none;
+$sub-nav-padding: rem-calc(3 16);
+$sub-nav-border-radius: 3px;
+$sub-nav-font-color-hover: scale-color($sub-nav-font-color, $lightness: -25%);
 
 // We use these to control the active item styles
 // $sub-nav-active-font-weight: $font-weight-normal;
@@ -1264,34 +1264,34 @@ $sub-nav-list-padding-top: rem-calc(4);
 // 30. Tables
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
-// $include-html-table-classes: $include-html-classes;
+$include-html-table-classes: $include-html-classes;
 
 // These control the background color for the table and even rows
-// $table-bg: $white;
-// $table-even-row-bg: $snow  ;
+$table-bg: $white;
+$table-even-row-bg: $snow  ;
 
 // These control the table cell border style
-// $table-border-style: solid;
-// $table-border-size: 1px;
-// $table-border-color: $gainsboro;
+$table-border-style: solid;
+$table-border-size: 1px;
+$table-border-color: $gainsboro;
 
 // These control the table head styles
-// $table-head-bg: $white-smoke  ;
-// $table-head-font-size: rem-calc(14);
-// $table-head-font-color: $jet;
-// $table-head-font-weight: $font-weight-bold;
-// $table-head-padding: rem-calc(8 10 10);
+$table-head-bg: $white-smoke  ;
+$table-head-font-size: rem-calc(14);
+$table-head-font-color: $jet;
+$table-head-font-weight: $font-weight-bold;
+$table-head-padding: rem-calc(8 10 10);
 
 // These control the row padding and font styles
-// $table-row-padding: rem-calc(9 10);
-// $table-row-font-size: rem-calc(14);
-// $table-row-font-color: $jet;
-// $table-line-height: rem-calc(18);
+$table-row-padding: rem-calc(9 10);
+$table-row-font-size: rem-calc(14);
+$table-row-font-color: $jet;
+$table-line-height: rem-calc(18);
 
 // These are for controlling the layout, display and margin of tables
-// $table-layout: auto;
-// $table-display: table-cell;
-// $table-margin-bottom: rem-calc(20);
+$table-layout: auto;
+$table-display: table-cell;
+$table-margin-bottom: rem-calc(20);
 
 // 31. Tabs
 // - - - - - - - - - - - - - - - - - - - - - - - - -
